@@ -1,0 +1,13 @@
+name: 'My Action'
+description: 'My first action with nodejs'
+inputs:
+  FIRST_NAME:
+    description: 'The first name'
+    required: false
+    default: 'John'
+outputs:
+  time:
+    description: 'The elapsed time'
+runs:
+  using: 'node12'
+  main: 'index.js'
